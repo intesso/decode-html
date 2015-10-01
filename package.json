@@ -1,0 +1,26 @@
+{
+  "name": "decode-html",
+  "version": "1.0.0",
+  "description": "decode html entities",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intesso/decode-html.git"
+  },
+  "keywords": [
+    "decode",
+    "html",
+    "entities"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intesso/decode-html/issues"
+  },
+  "homepage": "https://github.com/intesso/decode-html#readme"
+}
