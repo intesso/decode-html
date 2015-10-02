@@ -1,7 +1,7 @@
 module.exports = function decodeHTMLEntities(text) {
   var replacements = [
-    ['apos', '\''],
     ['amp', '&'],
+    ['apos', '\''],
     ['lt', '<'],
     ['gt', '>']
   ];
