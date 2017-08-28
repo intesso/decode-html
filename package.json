@@ -1,6 +1,6 @@
 {
   "name": "decode-html",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "decode html entities",
   "main": "index.js",
   "dependencies": {},
