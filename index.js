@@ -13,8 +13,7 @@ var entityPattern = /&([a-z]+);/ig;
 module.exports = function decodeHTMLEntities(text) {
   // A single replace pass with a static RegExp is faster than a loop
   return text.replace(entityPattern, function(match, entity) {
-    // `null` will only match `null` or `undefined` on type coercion
-    if (entities[entity] != null) {
+    if (entities.hasOwnProperty(entity.toLowerCase())) {
       return entities[entity];
     }
     // return original string if there is no matching entity (no replace)
